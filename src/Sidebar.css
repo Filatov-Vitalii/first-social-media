@@ -1,0 +1,74 @@
+.Sidebar {
+    width: 30%;
+    flex: 0.5 1;
+    margin-right: 10px;
+    padding: 10px;
+    background: slategray;
+}
+
+.sidebarContent {
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.articleName {
+    font-weight: bold;
+}
+
+.aniMain {
+    height: 90px;
+    width: 90px;
+    margin-left: 50px;
+    padding: 100px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.aniItem {
+    flex: 1 1 auto;
+    width: 25px;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 5px;
+    z-index: 500;
+}
+
+@keyframes download1 {
+    from {transform: translateX(0px) translateY(0px) rotate(0deg); background: white;}
+    20% {transform: translateX(-50px) translateY(-50px) rotate(-180deg); background: #60fff7;}
+    to {transform: translateX(0px) translateY(0px) rotate(-360deg); background: white;}
+}
+
+@keyframes download2 {
+    from {transform: translateX(0px) translateY(0px) rotate(0deg); background: white;}
+    40% {transform: translateX(50px) translateY(-50px) rotate(360deg); background: #5cff33;}
+    to {transform: translateX(0px) translateY(0px) rotate(720deg); background: white;}
+}
+
+@keyframes download3 {
+    from {transform: translateX(0px) translateY(0px) rotate(0deg); background: white;}
+    80% {transform: translateX(-50px) translateY(50px) rotate(-250deg); background: #ff2723;}
+    to {transform: translateX(0px) translateY(0px) rotate(-360deg); background: white;}
+}
+
+@keyframes download4 {
+    from {transform: translateX(0px) translateY(0px) rotate(0deg); background: white;}
+    60% {transform: translateX(50px) translateY(50px) rotate(180deg); background: #3036ff;}
+    to {transform: translateX(0px) translateY(0px) rotate(360deg); background: white;}
+}
+
+#first {
+    animation: download1 2s infinite;
+}
+
+#second {
+    animation: download2 2s infinite;
+}
+
+#third {
+    animation: download3 2s infinite;
+}
+
+#fourth {
+    animation: download4 2s infinite;
+}

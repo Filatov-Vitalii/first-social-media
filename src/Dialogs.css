@@ -1,0 +1,43 @@
+.Dialogs {
+    flex: 1 0.5;
+    padding: 20px;
+    background: lightgrey;
+    width: 232%;
+}
+
+.Dialog {
+    border: 1px solid rgba(10, 0, 0, 0.5);
+    height: 100px;
+    border-radius: 5px;
+    color: black;
+    background: lightgrey;
+    transition-property: background, border-radius;
+    transition-duration: 200ms, 200ms;
+}
+
+.Dialog:hover {
+    border-radius: 20px;
+    background: grey;
+}
+
+.From {
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.Text {
+
+}
+
+.OpenedDialog {
+    background: rgba(10, 0, 0, 0.5);
+    border-radius: 20px;
+    position: absolute;
+    height: 150px;
+    width: 500px;
+    transform: translateY(-150px) translateX(-50px);
+    color: white;
+    font-size: 25px;
+    padding-top: 120px;
+}

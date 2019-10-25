@@ -1,0 +1,15 @@
+body{
+  padding: 50px;
+  padding-top: 0px !important;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+a {
+  text-decoration: none;
+}
+

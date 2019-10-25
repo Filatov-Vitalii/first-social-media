@@ -1,0 +1,23 @@
+
+.Header {
+    top: 0;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 7vh;
+    flex: 1 0 auto;
+    background: lightsteelblue;
+    padding-top: 3vh;
+}
+
+.Header a{
+    margin-right: 70px;
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+    transition-property: color;
+    transition-duration: 300ms;
+}
+
+.Header a:hover {
+    color: black;
+}

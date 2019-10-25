@@ -1,0 +1,45 @@
+.MainField {
+    width: 70%;
+    flex: 1 0.5;
+    padding: 20px;
+    background: lightgrey;
+}
+
+.avatar {
+    width: 50px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px 1px black;
+    float: left;
+}
+
+.postMain {
+    border: 1px solid black;
+    padding: 15px;
+    width: 95%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px 1px black;
+    background: white;
+}
+
+.userName {
+    font-weight: bold;
+    text-align: left;
+    transform: translateX(10px);
+}
+
+.speaks {
+    font-weight: lighter;
+}
+
+.postText {
+    padding-top: 10px;
+    word-wrap: break-word;
+    padding-bottom: 15px;
+}
+
+.postDate {
+    float: right;
+    font-size: 10px;
+}
+
